@@ -181,7 +181,7 @@ The following options are available:
 - **user_form_timeout** - Integer value, specify the timeout for the CSRF security
   field of the registration form in seconds. Default value is 300 seconds.
 - **use_redirect_parameter_if_present** - Boolean value, if a redirect GET
-  parameter is specified, the user will be redirected to the specified URL if
+  parameter is specified, the user will be redirected to the specified route name if
   authentication is successful (if present, a GET parameter will override the
   login_redirect_route specified below).
 - **login_redirect_route** String value, name of a route in the application
